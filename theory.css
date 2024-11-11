@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    height: 9vh;
+    background: linear-gradient(-45deg , #f90fd2 , #598ef8, #f02a8d,#08c5f9, #0725e5);
+    animation: bg 12s ease-in infinite;
+    background-size:  400% 400%;
+    text-align: center;
+    line-height: 9vh;
+    font-size: 2em;
+    font-weight: bolder;
+}
+@keyframes bg {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 100%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+#logo{
+    height: 8.7vmin;
+    width: 13vmin;
+    border: 2px solid black;
+    position: fixed;
+    top: 0;
+    background-image: url("LOG0.webp");
+    background-size: cover;
+}
+
+body{
+    background-color: rgb(24, 24, 24);
+    text-align: center;
+    font-size: 2em;
+}
+h2{
+    color: antiquewhite;
+}
+main{
+    height: 100vh;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.con{
+    height: 90vh;
+    width: 70vw;
+    /* border: 2px solid white; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.3em;
+}
+.v1{
+height: 43vh;
+width: 33vw;
+}

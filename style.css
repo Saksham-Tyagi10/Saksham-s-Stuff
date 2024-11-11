@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.mainB{
+    height: 100vh;
+    width:  100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(-45deg , #f90fd2 , #598ef8, #f02a8d,#08c5f9, #0725e5);
+    animation: bg 12s ease-in infinite;
+    background-size:  400% 400%;
+}
+@keyframes bg {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 100%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+#main{
+    height: 70vmin;
+    width: 140vmin;
+    border: 2px solid black;
+     background: linear-gradient(black, rgb(11, 9, 9) );
+     box-shadow: 5px 5px 30px white;
+}
+.navbar{
+    height: 10vmin;
+    /* border: 2px solid wheat; */
+    display: flex;
+}
+#logo{
+    height: 10vmin;
+    width: 40%;
+    /* border: 2px solid yellow; */
+    display: flex;
+}
+ #img1{
+    height: 10vmin;
+    width: 15vmin; 
+}
+#txts{
+color: aliceblue;
+height: 10vmin;
+width: 20vmin;
+text-align: center;
+font-size: 4em;
+padding-left: 0.3em;
+}
+#spcs{
+    height: 10vmin;
+    width: 25vmin;
+    /* border: 2px solid green; */
+}
+#tools{
+    height: 8vmin;
+    width: 70vmin;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-around;
+    
+}
+/* .ntool{
+  height: 10vmin;
+  width : 16vmin;
+  color: rgb(21, 220, 255);
+  
+  font-size: 1.5rem;
+ } */
+  .ntool{ 
+    height: 10vmin;
+    width: 15vmin;
+    font-size: 1.5rem;
+    color: bisque;
+    text-align: center;
+    text-decoration: none;
+    line-height: 10vmin;
+    box-sizing: border-box;
+    transition: all  0.7s ease-in-out;
+    
+  }
+  .ntool:hover{
+    background-color: #14c4f5;
+    border-radius: 3em;
+    cursor: pointer;
+    
+  }
+  .intro{
+    height: 60vmin;
+    /* border: 2px solid wheat; */
+    display: flex;
+    justify-content: center;
+  }
+  .cont{
+    width: 50%;
+    height: 50vmin;
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .cont2{
+   height: 30vmin;
+   width: 50vmin;
+   /* border: 2px solid wheat; */
+   color: aliceblue;
+    font-size: 2em;
+  }
+  h2{
+    font-size: 0.5em;
+    font-weight: lighter;
+  }
+  #img2{
+    height: 38vmin;
+    width: 50vmin;
+    border-radius: 2em;
+    box-shadow: 5px 5px 30px white;
+    position: relative;
+    top: 2em;
+  }
+  a{
+    text-decoration: none;
+    color: #ebf2f4;
+  }

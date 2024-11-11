@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    height: 10vh;
+    background: linear-gradient(-45deg , #f90fd2 , #598ef8, #f02a8d,#08c5f9, #0725e5);
+    animation: bg 12s ease-in infinite;
+    background-size:  400% 400%;
+    text-align: center;
+    line-height: 10vh;
+    font-size: 2em;
+}
+@keyframes bg {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 100%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+
+#logo{
+    height: 9.9vmin;
+    width: 13vmin;
+    border: 2px solid black;
+    position: fixed;
+    top: 0;
+    background-image: url("LOG0.webp");
+    background-size: cover;
+}
+body{
+    background-color: rgb(24, 24, 24);
+}
+.fcn{
+    height: 50vmin;
+    /* border: 2px solid white; */
+    display: flex;
+}
+#fcn1{
+    height:30vmin ;
+    width: 50%;
+    /* border: 2px solid white; */
+    color: antiquewhite;
+    font-size: 1.3em;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    font-size: 2.3em;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+#img1{
+    height: 50vmin;
+    width: 63vmin;
+    position: absolute;
+    top: 13%;
+    right: 10%;
+    border-radius: 2em;
+    box-shadow: 5px 5px 30px rgb(253, 236, 2);
+}
+.scn{
+    height: 130vmin;
+    /* border: 2px solid white; */
+    margin-top: 2.1em;
+    color: antiquewhite;
+    font-size: 1.4em;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 0.5em;
+}
+#pts{
+    font-size: 1.4em;
+    /* padding-left: 0.2em; */
+}
+.scn2{
+    height:83vmin ;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#img2{
+    height: 80vmin;
+    width: 100vmin;
+    box-shadow: 5px 5px 30px rgb(17, 235, 251);
+    border-radius: 2em;
+}
+.lcn{
+height: 40vmin;
+/* border: 2px solid white; */
+}
